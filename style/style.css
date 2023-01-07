@@ -45,7 +45,12 @@
     color: #005FAC;
     font-weight: 600;
     font-size: 20;
+    margin-top: 20px;
     
+}
+
+.btn-primary:hover{
+    background-color: #F15B22;
 }
 
 /* main section */
@@ -86,12 +91,68 @@ align-items: center;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
+    
 }
 
-.plan img{
+.icon-container{
     padding: 100px 100px;
     padding-top: 50px;
+    display: flex;
+    
+}
+
+.icon{
+    padding: 100px 100px;
+    padding-top: 10px;
+
+}
+
+.icon-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+    white-space: pre;
+}
+
+.icon-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 10px;
+}
+
+.mind{
+    background-image: url(../images/watch.png);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-top: 10px;
     
     
 }
+
+.mindset{
+    text-align: left;
+    padding-left: 450px;
+    
+}
+
+.mind-title{
+    padding: left;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 50px;
+    color: #FFFFFF;
+    
+}
+
+
+
+
+
+
+
 
